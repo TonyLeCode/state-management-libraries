@@ -1,0 +1,62 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: black;
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color:rgb(226, 226, 226); */
+  flex-direction: column;
+}
+
+button {
+  background-color: rgb(19, 196, 19);
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: rgb(14, 235, 14);
+}
+
+button:active {
+  background-color: rgb(19, 211, 19);
+}
+
+table{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+td{
+  height: 4rem;
+  /* background-color: red; */
+  padding-right: 4rem;
+}
+
+.name{
+  min-width: 14rem;
+}
+.email{
+  min-width: 22rem;
+}
+.ip{
+  min-width: 10rem;
+}
